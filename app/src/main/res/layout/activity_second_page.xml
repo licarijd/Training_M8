@@ -18,15 +18,15 @@
 
     //Added OnClick for second page
 
-    <EditText
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:text="So whether you&apos;re a powerlifter hoping to calculate a max lift based on in-season training, a runner hoping to estimate your aerobic capacity, or a fitness advocate hoping to estimate Body Mass Index and Percent Body Fat, Training M8 has features for everyone! "
+        android:text="So whether you&apos;re a powerlifter hoping to calculate a max lift based on in-season training, a runner hoping to estimate your aerobic capacity, or a fitness advocate hoping to estimate Body Mass Index and Percent Body Fat, Training M8 has features for everyone! Tap here to get started!"
+        android:id="@+id/button2"
         android:textColor="@android:color/white"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textSize="15dp" />
+        android:background="@android:color/background_dark"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
