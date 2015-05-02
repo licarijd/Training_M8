@@ -1,4 +1,4 @@
-package com.example.jnj.trainingm8;
+package com.licarijd.jnj.trainingm8;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
