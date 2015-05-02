@@ -9,7 +9,7 @@ import android.content.Intent;
 import android.widget.ImageButton;
 
 
-public class MainActivity extends ActionBarActivity {
+public class SecondIntroPage extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,14 +40,6 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    // Called when the user clicks the Send button. This is for the first page.
-    public void open_second_page(View view) {
 
-        // Do something in response to button
-        Intent nextScreen = new Intent(getApplicationContext(), SecondIntroPage.class);
-
-        startActivity(nextScreen);
-
-    }
 
 }

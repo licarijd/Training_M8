@@ -19,7 +19,7 @@
 
         //The user taps anywhere on opening page to access next page (bodybuilder).
         <activity
-            android:name="second_page"
+            android:name="SecondIntroPage"
             android:label="@string/app_name">
         </activity>
 
