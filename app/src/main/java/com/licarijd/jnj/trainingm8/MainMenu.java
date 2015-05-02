@@ -9,12 +9,12 @@ import android.content.Intent;
 import android.widget.ImageButton;
 
 
-public class SecondIntroPage extends ActionBarActivity {
+public class MainMenu extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second_page);
+        setContentView(R.layout.activity_main_menu);
     }
 
 
@@ -40,13 +40,6 @@ public class SecondIntroPage extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void open_main_menu(View view) {
 
-        // Do something in response to button
-        Intent nextScreen = new Intent(getApplicationContext(), MainMenu.class);
-
-        startActivity(nextScreen);
-
-    }
 
 }
