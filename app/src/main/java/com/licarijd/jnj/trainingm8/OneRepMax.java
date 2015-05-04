@@ -9,12 +9,12 @@ import android.content.Intent;
 import android.widget.ImageButton;
 
 
-public class MainMenu extends ActionBarActivity {
+public class OneRepMax extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menu);
+        setContentView(R.layout.activity_one_rep_max);
     }
 
 
@@ -40,60 +40,23 @@ public class MainMenu extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void open_one_rep_max(View view) {
+    public void open_main_menu(View view) {
 
         // Do something in response to button
-        Intent nextScreen = new Intent(getApplicationContext(), OneRepMax.class);
+        Intent nextScreen = new Intent(getApplicationContext(), MainMenu.class);
 
         startActivity(nextScreen);
 
     }
 
-    public void open_percent_fat(View view) {
+    // Called when the user clicks the Send button. This is for the first page.
+    public void open_one_rep_max_results(View view) {
 
         // Do something in response to button
-        Intent nextScreen = new Intent(getApplicationContext(), PercentBodyFat.class);
+        Intent nextScreen = new Intent(getApplicationContext(), OneRepMaxResults.class);
 
         startActivity(nextScreen);
 
     }
-
-    public void open_max_heart_rate(View view) {
-
-        // Do something in response to button
-        Intent nextScreen = new Intent(getApplicationContext(), MaxHeartRate.class);
-
-        startActivity(nextScreen);
-
-    }
-
-    public void open_muscle_composition(View view) {
-
-        // Do something in response to button
-        Intent nextScreen = new Intent(getApplicationContext(), MuscleComposition.class);
-
-        startActivity(nextScreen);
-
-    }
-
-    public void open_bmi(View view) {
-
-        // Do something in response to button
-        Intent nextScreen = new Intent(getApplicationContext(), BMI.class);
-
-        startActivity(nextScreen);
-
-    }
-
-    public void open_vo2max(View view) {
-
-        // Do something in response to button
-        Intent nextScreen = new Intent(getApplicationContext(), VO2Max.class);
-
-        startActivity(nextScreen);
-
-    }
-
-
 
 }
