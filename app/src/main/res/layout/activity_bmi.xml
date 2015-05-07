@@ -2,6 +2,113 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bmi">
+    android:background="@drawable/bmi"
+    android:weightSum="1">
 
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pounds (uncheck for Kilograms)"
+        android:id="@+id/checkBox"
+        android:checked="true"
+        android:background="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="1dp"/>
+
+    <CheckBox
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:text="Inches (uncheck for Centimeters)"
+        android:id="@+id/checkBox2"
+        android:checked="true"
+        android:background="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="                          Height:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="#ff0effad"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:autoText="false" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:text="                          Weight:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="15dp"
+        android:background="#ff0effad" />
+
+    <EditText
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="29dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/editText10"
+        android:text="                   Your BMI is 00"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#fff0faff"
+        android:layout_weight="0.21" />
+
+    <ImageButton
+        android:layout_width="230dp"
+        android:layout_height="90dp"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/calculateButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"/>
+
+    <ImageButton
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageButton3"
+        android:background="@drawable/previous"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:layout_marginTop="25dp"/>
 </LinearLayout>

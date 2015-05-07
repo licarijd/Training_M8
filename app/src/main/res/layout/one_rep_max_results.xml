@@ -2,6 +2,173 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/percentfat">
+    android:background="@drawable/metal"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="    Your One Rep Max Lift Weight:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="#ff0effad"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"/>
+
+    <EditText
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:autoText="false" />
+
+    <EditText
+        android:layout_width="148dp"
+        android:layout_height="25dp"
+        android:id="@+id/editText3"
+        android:text="90% of ORM"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:background="#ff0effad"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:id="@+id/editText11"
+        android:text="90% of ORM"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:background="#ff0effad"
+        android:layout_gravity="center_horizontal" />
+
+
+    <EditText
+        android:layout_width="77dp"
+        android:layout_height="25dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText12"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/editText13"
+        android:text="90% of ORM"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:background="#ff0effad"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="87dp"
+        android:layout_height="25dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText14"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/editText15"
+        android:text="90% of ORM"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:background="#ff0effad"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="83dp"
+        android:layout_height="25dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText16"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText17"
+        android:text="90% of ORM"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:background="#ff0effad"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText18"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageButton
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageButton3"
+        android:background="@drawable/previous"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"/>
 
 </LinearLayout>

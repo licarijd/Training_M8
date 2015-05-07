@@ -2,44 +2,42 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/swimmer"
-    android:weightSum="1">
+    android:background="@drawable/metal">
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText8"
-        android:text="One Rep Max Lift (Any Excercise):"
+        android:layout_height="25dp"
+        android:id="@+id/editText19"
+        android:text="                      Your VO2 Max:"
         android:textColor="@android:color/black"
         android:textStyle="bold"
         android:textSize="23dp"
         android:background="#ff0effad"
-        android:layout_marginTop="1dp"
-        android:layout_weight="0.04"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp" />
 
     <EditText
-        android:layout_width="83dp"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText9"
+        android:id="@+id/editText20"
         android:text="0"
         android:textColor="@android:color/black"
         android:layout_gravity="center_horizontal"
-        android:textSize="29dp"
+        android:textSize="23dp"
         android:textStyle="bold"
         android:layout_marginTop="5dp"
         android:background="@android:color/white"
         android:autoText="false" />
 
-    <ImageButton
-        android:layout_width="130dp"
-        android:layout_height="65dp"
-        android:id="@+id/imageButton2"
-        android:background="@drawable/next"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="310dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:background="@drawable/vo2maxchart"
+        android:layout_marginTop="10dp"/>
 
     <ImageButton
         android:layout_width="230dp"
@@ -47,6 +45,5 @@
         android:id="@+id/imageButton3"
         android:background="@drawable/previous"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.05"
-        android:layout_marginTop="25dp"/>
+        android:layout_marginTop="5dp"/>
 </LinearLayout>
