@@ -6,15 +6,25 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.content.Intent;
+import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.ImageButton;
 
 
-public class OneRepMaxResults extends ActionBarActivity {
+public class OneRepMaxResults extends OneRepMax {
+
+    private EditText resultWin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.one_rep_max_results);
+
+        //The results window.
+        resultWin = (EditText) findViewById((R.id.orm_results_window));
+
+        resultWin.setText(calculate());
+
     }
 
 
@@ -47,6 +57,31 @@ public class OneRepMaxResults extends ActionBarActivity {
 
         startActivity(nextScreen);
 
+        //calculate(view);
+
+
+    }
+
+
+    public String calculate() {
+
+        //Reps is assigned to a String and converted to an integer.
+        String repsText = String.valueOf(repsInput.getText());
+        int reps = Integer.parseInt(repsText);
+
+        //Weight is assigned to a String and converted to an integer.
+        String weightText = String.valueOf(weightInput.getText());
+        int weight = Integer.parseInt(weightText);
+
+        Boolean pounds = weightType.isChecked();
+
+        int oneRepMax = weight*(1 + (reps/30));
+
+        String oneRepMaxText = String.valueOf(oneRepMax);
+
+        //return oneRepMaxText;
+
+        return("hi");
     }
 
 }

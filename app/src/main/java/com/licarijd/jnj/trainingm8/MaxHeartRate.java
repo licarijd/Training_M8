@@ -89,24 +89,7 @@ public class MaxHeartRate extends ActionBarActivity {
        if (isMale){
            max = 220;
        }
-/*
-        //maximum heart rate for either genders initialized to 0.
-        int max = 0;
-/*
-        // Check which radio button was clicked
-        switch (view.getId()) {
-            case R.id.male:
-                if (checked)
 
-                    max = 220;
-                    break;
-
-            case R.id.female:
-                if (checked)
-
-                    max = 226;
-                    break;
-        }*/
 
         int maxHeartRate = max - usersAge;
 

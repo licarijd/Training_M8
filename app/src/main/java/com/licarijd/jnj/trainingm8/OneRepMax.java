@@ -6,15 +6,36 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.content.Intent;
+import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.RadioButton;
 
 
 public class OneRepMax extends ActionBarActivity {
+
+     ImageButton calculateOneRepMax;
+     EditText repsInput, weightInput;
+     CheckBox weightType;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_one_rep_max);
+
+        //The text field where the user enters their completed reps.
+        repsInput = (EditText) findViewById((R.id.reps_completed));
+
+        //The text field where the user enters the weight lifted.
+        weightInput = (EditText) findViewById((R.id.weight_lifted));
+
+        //The calculate button.
+        calculateOneRepMax = (ImageButton) findViewById(R.id.calculate_one_rep_max);
+
+        //Pounds or Kilo selection..
+        weightType = (CheckBox) findViewById(R.id.weight_type);
+
     }
 
 
@@ -58,5 +79,7 @@ public class OneRepMax extends ActionBarActivity {
         startActivity(nextScreen);
 
     }
+
+
 
 }
