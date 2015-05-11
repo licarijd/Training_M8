@@ -28,7 +28,8 @@
         android:layout_marginTop="34dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:onClick="open_one_rep_max"/>
+        android:onClick="open_one_rep_max"
+        android:clickable="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -40,7 +41,8 @@
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dp"
-        android:onClick="open_vo2max"/>
+        android:onClick="open_vo2max"
+        android:clickable="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -54,7 +56,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/textView2"
         android:layout_alignEnd="@+id/textView2"
-        android:onClick="open_max_heart_rate"/>
+        android:onClick="open_max_heart_rate"
+        android:clickable="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -67,7 +70,8 @@
         android:layout_marginTop="31dp"
         android:layout_alignRight="@+id/textView2"
         android:layout_alignEnd="@+id/textView2"
-        android:onClick="open_bmi"/>
+        android:onClick="open_bmi"
+        android:clickable="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -79,7 +83,8 @@
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
-        android:onClick="open_percent_fat"/>
+        android:onClick="open_percent_fat"
+        android:clickable="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -92,7 +97,8 @@
         android:layout_below="@+id/button6"
         android:layout_alignRight="@+id/textView2"
         android:layout_alignEnd="@+id/textView2"
-        android:onClick="open_muscle_composition"/>
+        android:onClick="open_muscle_composition"
+        android:clickable="true" />
 
 </RelativeLayout>
 

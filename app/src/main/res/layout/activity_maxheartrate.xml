@@ -21,7 +21,7 @@
         android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:text="Male"
-        android:id="@+id/radioButton2"
+        android:id="@+id/male"
         android:layout_gravity="center_horizontal"
         android:background="@android:color/white"
         android:layout_marginTop="5dp"
@@ -33,7 +33,7 @@
         android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:text="Female"
-        android:id="@+id/radioButton"
+        android:id="@+id/female"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.05"
         android:background="@android:color/white"
@@ -60,7 +60,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText6"
+        android:id="@+id/input_age"
         android:text="0"
         android:textColor="@android:color/black"
         android:textSize="29dp"
@@ -69,13 +69,29 @@
         android:background="@android:color/white"
         android:layout_marginTop="5dp" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/mhr_results_window"
+        android:text="                           Age:"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="#ff0effad"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0.05"
+        android:editable="true" />
+
     <ImageButton
         android:layout_width="230dp"
         android:layout_height="90dp"
-        android:id="@+id/imageButton2"
-        android:background="@drawable/calculateButton"
+        android:id="@+id/calculate_max_heart_rate"
+        android:background="@drawable/calculate_button"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="105dp"/>
+        android:layout_marginTop="10dp"
+        android:onClick="calculate"
+        android:clickable="true" />
 
     <ImageButton
         android:layout_width="230dp"
@@ -84,6 +100,6 @@
         android:background="@drawable/previous"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.05"
-        android:layout_marginTop="25dp"/>
+        android:layout_marginTop="15dp"/>
 
 </LinearLayout>

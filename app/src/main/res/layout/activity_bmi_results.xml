@@ -37,7 +37,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/textView"
         android:background="@drawable/bmichart"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="150dp"/>
 
     <ImageButton
         android:layout_width="230dp"
@@ -45,6 +45,6 @@
         android:id="@+id/imageButton3"
         android:background="@drawable/previous"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="145dp"/>
+        android:layout_marginTop="45dp"/>
 
 </LinearLayout>

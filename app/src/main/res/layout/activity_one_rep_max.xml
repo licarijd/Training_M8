@@ -3,7 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/weightroom"
-    android:id="@+id/"
+    android:id="@+id/temporary"
     android:weightSum="1">
 
     <CheckBox
@@ -75,7 +75,7 @@
         android:layout_width="230dp"
         android:layout_height="90dp"
         android:id="@+id/imageButton2"
-        android:background="@drawable/calculateButton"
+        android:background="@drawable/calculate_button"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="85dp"/>
 

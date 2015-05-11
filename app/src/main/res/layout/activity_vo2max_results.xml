@@ -6,34 +6,34 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="25dp"
-        android:id="@+id/editText19"
-        android:text="                      Your VO2 Max:"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:text="                Reps Completed:"
         android:textColor="@android:color/black"
         android:textStyle="bold"
-        android:textSize="23dp"
-        android:background="#ff0effad"
+        android:textSize="25dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="1dp" />
+
+        android:layout_marginTop="1dp"
+        android:background="#ff0effad" />
 
     <EditText
-        android:layout_width="100dp"
-        android:layout_height="25dp"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText20"
+        android:id="@+id/editText4"
         android:text="0"
         android:textColor="@android:color/black"
+        android:textSize="29dp"
         android:layout_gravity="center_horizontal"
-        android:textSize="23dp"
         android:textStyle="bold"
-        android:layout_marginTop="5dp"
         android:background="@android:color/white"
-        android:autoText="false" />
+        android:layout_marginTop="5dp" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="400dp"
+        android:layout_height="370dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/textView"
         android:background="@drawable/vo2maxchart"

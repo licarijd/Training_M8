@@ -28,6 +28,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:onClick="open_main_menu"/>
+        android:onClick="open_main_menu"
+        android:clickable="true" />
 
 </RelativeLayout>
